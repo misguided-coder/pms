@@ -1,1 +1,7 @@
 com\example\GitCalc.class
+com\example\CalculatorService.class
+com\example\InvalidProductException.class
+com\example\InvalidSalaryException.class
+com\example\PayrollService.class
+com\example\Product.class
+com\example\ShoppingService.class
