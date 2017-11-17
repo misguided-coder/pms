@@ -115,7 +115,7 @@ public class ShoppingServiceTest {
 	public void addOneItemShouldMakeCartSizeToBeOne() {
 		Product laptop = new Product(100, "HP Laptop", 15000.00, 1);
 		shoppingService.addItem(laptop);
-		assertEquals(1, shoppingService.countItems());
+		assertEquals(56, shoppingService.countItems());
 	}
 
 	@Test
