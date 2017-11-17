@@ -54,8 +54,6 @@ public class PayrollServiceTest{
 			double result = payrollService.da(10000.00);
 			Assert.assertEquals(1000.00,result,2);
 
-			Assert.assertEquals(2000.00,result,2);
-
 		}catch(InvalidSalaryException ex){}
 	}
 

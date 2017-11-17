@@ -108,11 +108,11 @@ function toggleDisplay(elementId) {
 <th>Success Rate</th>
 <th>Time</th></tr>
 <tr class="b">
-<td>20</td>
+<td>23</td>
 <td>0</td>
-<td>2</td>
+<td>4</td>
 <td>0</td>
-<td>90%</td>
+<td>82.609%</td>
 <td>0.172</td></tr></table><br />
 <p>Note: failures are anticipated and checked for with assertions while errors are unanticipated.</p><br /></div>
 <div class="section">
@@ -129,11 +129,11 @@ function toggleDisplay(elementId) {
 <th>Time</th></tr>
 <tr class="b">
 <td><a href="#com.example">com.example</a></td>
-<td>20</td>
+<td>23</td>
 <td>0</td>
-<td>2</td>
+<td>4</td>
 <td>0</td>
-<td>90%</td>
+<td>82.609%</td>
 <td>0.172</td></tr></table><br />
 <p>Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.</p>
 <div class="section">
@@ -151,20 +151,20 @@ function toggleDisplay(elementId) {
 <tr class="b">
 <td><a href="#com.examplePayrollServiceTest"><img src="images/icon_warning_sml.gif" alt="" /></a></td>
 <td><a href="#com.examplePayrollServiceTest">PayrollServiceTest</a></td>
-<td>5</td>
+<td>7</td>
 <td>0</td>
-<td>1</td>
+<td>3</td>
 <td>0</td>
-<td>80%</td>
+<td>57.143%</td>
 <td>0.172</td></tr>
 <tr class="a">
 <td><a href="#com.exampleShoppingServiceTest"><img src="images/icon_warning_sml.gif" alt="" /></a></td>
 <td><a href="#com.exampleShoppingServiceTest">ShoppingServiceTest</a></td>
-<td>15</td>
+<td>16</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
-<td>93.333%</td>
+<td>93.75%</td>
 <td>0</td></tr></table></div><br /></div>
 <div class="section">
 <h2>Test Cases<a name="Test_Cases"></a></h2><a name="Test_Cases"></a>
@@ -183,18 +183,122 @@ function toggleDisplay(elementId) {
 <td>0</td></tr>
 <tr class="a">
 <td></td>
-<td>expected:&lt;1100.0&gt; but was:&lt;1000.0&gt;</td>
+<td>expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;</td>
 <td></td></tr>
 <tr class="b">
 <td></td>
 <td>
 <div id="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary1error" style="display:none;">
 <div>
-<pre>java.lang.AssertionError: expected:&lt;1100.0&gt; but was:&lt;1000.0&gt;	at org.junit.Assert.fail(Assert.java:88)
+<pre>java.lang.AssertionError: expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:494)
 	at org.junit.Assert.assertEquals(Assert.java:592)
-	at com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary1(PayrollServiceTest.java:43)
+	at com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary1(PayrollServiceTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)</pre></div></div></td>
+<td></td></tr>
+<tr class="a">
+<td><a href="#com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2"><img src="images/icon_error_sml.gif" alt="" /></a></td>
+<td><a name="TC_com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2"></a><a href="#com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2">daShouldBeTenPercentOfSalary2</a>
+<div class="detailToggle" style="display:inline"><a href="javascript:toggleDisplay(&apos;com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2&apos;);"><span style="display:inline;" id="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2off"> + </span><span style="display:none;" id="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2on"> - </span>[ Detail ]</a></div></td>
+<td>0</td></tr>
+<tr class="b">
+<td></td>
+<td>expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;</td>
+<td></td></tr>
+<tr class="a">
+<td></td>
+<td>
+<div id="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2error" style="display:none;">
+<div>
+<pre>java.lang.AssertionError: expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2(PayrollServiceTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)</pre></div></div></td>
+<td></td></tr>
+<tr class="b">
+<td><a href="#com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3"><img src="images/icon_error_sml.gif" alt="" /></a></td>
+<td><a name="TC_com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3"></a><a href="#com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3">daShouldBeTenPercentOfSalary3</a>
+<div class="detailToggle" style="display:inline"><a href="javascript:toggleDisplay(&apos;com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3&apos;);"><span style="display:inline;" id="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3off"> + </span><span style="display:none;" id="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3on"> - </span>[ Detail ]</a></div></td>
+<td>0</td></tr>
+<tr class="a">
+<td></td>
+<td>expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;</td>
+<td></td></tr>
+<tr class="b">
+<td></td>
+<td>
+<div id="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3error" style="display:none;">
+<div>
+<pre>java.lang.AssertionError: expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3(PayrollServiceTest.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -280,30 +384,34 @@ function toggleDisplay(elementId) {
 <td>0</td></tr>
 <tr class="b">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
-<td><a name="TC_com.example.ShoppingServiceTest.removingAllLoptopItemsFromCartShouldRemoveFromCart"></a>removingAllLoptopItemsFromCartShouldRemoveFromCart</td>
+<td><a name="TC_com.example.ShoppingServiceTest.placeOrderShouldGiveOrderNumberNew3Test"></a>placeOrderShouldGiveOrderNumberNew3Test</td>
 <td>0</td></tr>
 <tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.example.ShoppingServiceTest.removingAllLoptopItemsFromCartShouldRemoveFromCart"></a>removingAllLoptopItemsFromCartShouldRemoveFromCart</td>
+<td>0</td></tr>
+<tr class="b">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_com.example.ShoppingServiceTest.removingNonExistingItemFromCartShouldResultInException"></a>removingNonExistingItemFromCartShouldResultInException</td>
 <td>0</td></tr>
-<tr class="b">
+<tr class="a">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_com.example.ShoppingServiceTest.addMultipleItemsShouldMakeCartSizeToBeMoreThanOne"></a>addMultipleItemsShouldMakeCartSizeToBeMoreThanOne</td>
 <td>0</td></tr>
-<tr class="a">
+<tr class="b">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_com.example.ShoppingServiceTest.addLaptopInCartShouldResultInLaptopOnly"></a>addLaptopInCartShouldResultInLaptopOnly</td>
 <td>0</td></tr>
-<tr class="b">
+<tr class="a">
 <td><a href="#com.example.ShoppingServiceTest.addOneItemShouldMakeCartSizeToBeOne"><img src="images/icon_error_sml.gif" alt="" /></a></td>
 <td><a name="TC_com.example.ShoppingServiceTest.addOneItemShouldMakeCartSizeToBeOne"></a><a href="#com.example.ShoppingServiceTest.addOneItemShouldMakeCartSizeToBeOne">addOneItemShouldMakeCartSizeToBeOne</a>
 <div class="detailToggle" style="display:inline"><a href="javascript:toggleDisplay(&apos;com.example.ShoppingServiceTest.addOneItemShouldMakeCartSizeToBeOne&apos;);"><span style="display:inline;" id="com.example.ShoppingServiceTest.addOneItemShouldMakeCartSizeToBeOneoff"> + </span><span style="display:none;" id="com.example.ShoppingServiceTest.addOneItemShouldMakeCartSizeToBeOneon"> - </span>[ Detail ]</a></div></td>
 <td>0</td></tr>
-<tr class="a">
+<tr class="b">
 <td></td>
 <td>expected:&lt;56&gt; but was:&lt;1&gt;</td>
 <td></td></tr>
-<tr class="b">
+<tr class="a">
 <td></td>
 <td>
 <div id="com.example.ShoppingServiceTest.addOneItemShouldMakeCartSizeToBeOneerror" style="display:none;">
@@ -347,7 +455,7 @@ function toggleDisplay(elementId) {
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)</pre></div></div></td>
 <td></td></tr>
-<tr class="a">
+<tr class="b">
 <td><img src="images/icon_success_sml.gif" alt="" /></td>
 <td><a name="TC_com.example.ShoppingServiceTest.placeOrderShouldGiveOrderNumber"></a>placeOrderShouldGiveOrderNumber</td>
 <td>0</td></tr></table></div><br /></div>
@@ -360,11 +468,31 @@ function toggleDisplay(elementId) {
 <td><a name="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary1"></a>daShouldBeTenPercentOfSalary1</td></tr>
 <tr class="b">
 <td></td>
-<td>java.lang.AssertionError: expected:&lt;1100.0&gt; but was:&lt;1000.0&gt;</td></tr>
+<td>java.lang.AssertionError: expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;</td></tr>
 <tr class="a">
 <td></td>
 <td>
-<div id="daShouldBeTenPercentOfSalary1error">com.example.PayrollServiceTest:43</div></td></tr>
+<div id="daShouldBeTenPercentOfSalary1error">com.example.PayrollServiceTest:45</div></td></tr>
+<tr class="b">
+<td><img src="images/icon_error_sml.gif" alt="" /></td>
+<td><a name="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary2"></a>daShouldBeTenPercentOfSalary2</td></tr>
+<tr class="a">
+<td></td>
+<td>java.lang.AssertionError: expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;</td></tr>
+<tr class="b">
+<td></td>
+<td>
+<div id="daShouldBeTenPercentOfSalary2error">com.example.PayrollServiceTest:57</div></td></tr>
+<tr class="a">
+<td><img src="images/icon_error_sml.gif" alt="" /></td>
+<td><a name="com.example.PayrollServiceTest.daShouldBeTenPercentOfSalary3"></a>daShouldBeTenPercentOfSalary3</td></tr>
+<tr class="b">
+<td></td>
+<td>java.lang.AssertionError: expected:&lt;2000.0&gt; but was:&lt;1000.0&gt;</td></tr>
+<tr class="a">
+<td></td>
+<td>
+<div id="daShouldBeTenPercentOfSalary3error">com.example.PayrollServiceTest:69</div></td></tr>
 <tr class="b">
 <td><img src="images/icon_error_sml.gif" alt="" /></td>
 <td><a name="com.example.ShoppingServiceTest.addOneItemShouldMakeCartSizeToBeOne"></a>addOneItemShouldMakeCartSizeToBeOne</td></tr>

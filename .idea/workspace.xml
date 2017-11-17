@@ -2,7 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98a0a80-e9b8-41f9-bdc1-719d88667aff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cobertura/cobertura.ser" afterPath="$PROJECT_DIR$/target/cobertura/cobertura.ser" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/pms-1.0.jar" afterPath="$PROJECT_DIR$/target/pms-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/PayrollServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/PayrollServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/ShoppingServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/ShoppingServiceTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/PayrollServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/PayrollServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-classes/cobertura/cobertura.properties" afterPath="$PROJECT_DIR$/target/generated-classes/cobertura/cobertura.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/pmd.xml" afterPath="$PROJECT_DIR$/target/pmd.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/CalculatorService.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/CalculatorService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/Employee.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/Employee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/GitCalc.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/GitCalc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/InvalidProductException.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/InvalidProductException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/InvalidSalaryException.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/InvalidSalaryException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/PayrollService.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/PayrollService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/Product.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/Product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/ShoppingService.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/ShoppingService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/CalculatorService.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/CalculatorService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/Employee.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/Employee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/GitCalc.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/GitCalc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/InvalidProductException.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/InvalidProductException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/InvalidSalaryException.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/InvalidSalaryException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/PayrollService.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/PayrollService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/Product.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/Product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/ShoppingService.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/class-use/ShoppingService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/package-frame.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/package-summary.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/package-tree.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/com/example/package-use.html" afterPath="$PROJECT_DIR$/target/site/apidocs/com/example/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/com.example.CalculatorService.html" afterPath="$PROJECT_DIR$/target/site/cobertura/com.example.CalculatorService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/com.example.Employee.html" afterPath="$PROJECT_DIR$/target/site/cobertura/com.example.Employee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/com.example.GitCalc.html" afterPath="$PROJECT_DIR$/target/site/cobertura/com.example.GitCalc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/com.example.InvalidProductException.html" afterPath="$PROJECT_DIR$/target/site/cobertura/com.example.InvalidProductException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/com.example.InvalidSalaryException.html" afterPath="$PROJECT_DIR$/target/site/cobertura/com.example.InvalidSalaryException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/com.example.PayrollService.html" afterPath="$PROJECT_DIR$/target/site/cobertura/com.example.PayrollService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/com.example.Product.html" afterPath="$PROJECT_DIR$/target/site/cobertura/com.example.Product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/com.example.ShoppingService.html" afterPath="$PROJECT_DIR$/target/site/cobertura/com.example.ShoppingService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/coverage.xml" afterPath="$PROJECT_DIR$/target/site/cobertura/coverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/frame-summary-com.example.html" afterPath="$PROJECT_DIR$/target/site/cobertura/frame-summary-com.example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/cobertura/frame-summary.html" afterPath="$PROJECT_DIR$/target/site/cobertura/frame-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/surefire-report.html" afterPath="$PROJECT_DIR$/target/site/surefire-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/AllTests.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/AllTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/PayrollServiceTest.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/PayrollServiceTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/ShoppingServiceTest.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/ShoppingServiceTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/class-use/AllTests.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/class-use/AllTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/class-use/PayrollServiceTest.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/class-use/PayrollServiceTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/class-use/ShoppingServiceTest.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/class-use/ShoppingServiceTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/package-frame.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/package-summary.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/package-tree.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/com/example/package-use.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/com/example/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/index-all.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/index.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.PayrollServiceTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.PayrollServiceTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.ShoppingServiceTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.ShoppingServiceTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.PayrollServiceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.PayrollServiceTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.ShoppingServiceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.ShoppingServiceTest.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +88,8 @@
       <file leaf-file-name="PayrollServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/PayrollServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="62" column="45" lean-forward="false" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+            <state relative-caret-position="563">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,7 +119,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -205,15 +276,15 @@
       <workItem from="1510897024997" duration="75000" />
       <workItem from="1510898864237" duration="131000" />
       <workItem from="1510899261897" duration="7000" />
-      <workItem from="1510899306086" duration="292000" />
+      <workItem from="1510899306086" duration="420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="542000" />
+    <option name="totallyTimeSpent" value="670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -273,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/PayrollServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="62" column="45" lean-forward="false" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+        <state relative-caret-position="563">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
