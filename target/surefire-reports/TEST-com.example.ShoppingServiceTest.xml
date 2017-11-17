@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="1" name="com.example.ShoppingServiceTest" time="0" errors="0" skipped="0">
+<testsuite tests="15" failures="1" name="com.example.ShoppingServiceTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -74,6 +74,7 @@
   <testcase classname="com.example.ShoppingServiceTest" name="emptyCartShouldAlsoResultInNonNullCart" time="0"/>
   <testcase classname="com.example.ShoppingServiceTest" name="emptyCartShouldResultZeroItemsInCart" time="0"/>
   <testcase classname="com.example.ShoppingServiceTest" name="emptyingCartShouldReduceCartSizeToBeZero" time="0"/>
+  <testcase classname="com.example.ShoppingServiceTest" name="placeOrderShouldGiveOrderNumberNew2Test" time="0"/>
   <testcase classname="com.example.ShoppingServiceTest" name="removingAllLoptopItemsFromCartShouldRemoveFromCart" time="0"/>
   <testcase classname="com.example.ShoppingServiceTest" name="removingNonExistingItemFromCartShouldResultInException" time="0"/>
   <testcase classname="com.example.ShoppingServiceTest" name="addMultipleItemsShouldMakeCartSizeToBeMoreThanOne" time="0"/>
