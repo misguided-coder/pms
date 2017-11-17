@@ -47,6 +47,30 @@ public class PayrollServiceTest{
 		}catch(InvalidSalaryException ex){}
 	}
 
+	@Test
+	public void daShouldBeTenPercentOfSalary2(){
+		try{
+			//PayrollService	payrollService = new PayrollService();
+			double result = payrollService.da(10000.00);
+			Assert.assertEquals(1000.00,result,2);
+
+			Assert.assertEquals(2000.00,result,2);
+
+		}catch(InvalidSalaryException ex){}
+	}
+
+	@Test
+	public void daShouldBeTenPercentOfSalary3(){
+		try{
+			//PayrollService	payrollService = new PayrollService();
+			double result = payrollService.da(10000.00);
+			Assert.assertEquals(1000.00,result,2);
+
+			Assert.assertEquals(2000.00,result,2);
+
+		}catch(InvalidSalaryException ex){}
+	}
+
 	@Test(expected=InvalidSalaryException.class)
 	public void hraShouldYieldExceptionIfZeroOrNegativeSalary() throws InvalidSalaryException{
 		//PayrollService	payrollService = new PayrollService();
